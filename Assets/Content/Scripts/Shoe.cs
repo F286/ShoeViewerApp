@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Shoe : MonoBehaviour {
+public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+{
+  public void OnPointerClick(PointerEventData eventData) {
+		print("click");
+  }
 
-	// Use this for initialization
-	void Start () {
+  public void OnPointerEnter(PointerEventData eventData) {
+		print("enter");
 		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+  }
+
+  public void OnPointerExit(PointerEventData eventData) {
+		print("exit");
 		
-	}
+  }
 }
