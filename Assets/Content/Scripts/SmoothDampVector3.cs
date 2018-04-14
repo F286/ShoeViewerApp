@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmoothDampScale : MonoBehaviour {
+public class SmoothDampVector3 : MonoBehaviour {
 	public float smoothTime = 0.2f;
-	public Vector3 target = Vector3.one;
-	public Vector3 velocity;
+	public Vector3 current = Vector3.zero;
+	public Vector3 target = Vector3.zero;
+	public Vector3 velocity = Vector3.zero;
 
 	public void Update () {
 		transform.localScale = Vector3.SmoothDamp(transform.localScale, target, ref velocity, smoothTime);
