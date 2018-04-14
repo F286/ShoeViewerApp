@@ -1805,8 +1805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1892fcc09954d2199344bffe95046e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothTime: 0
-  target: {x: 0, y: 0, z: 0}
+  smoothTime: 0.2
+  target: {x: 1, y: 1, z: 1}
   velocity: {x: 0, y: 0, z: 0}
 --- !u!1 &1805475879
 GameObject:
