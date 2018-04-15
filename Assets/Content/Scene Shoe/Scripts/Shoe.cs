@@ -4,35 +4,36 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
+  public ShoeData data;
   [Space()]
-  public Transform graphic;
+  // public Transform graphic;
   // public SmoothDampVector3 scale;
   public MeshRenderer[] primaryGraphic;
   public MeshRenderer[] secondaryGraphic;
   public MeshRenderer[] tertiaryGraphic;
-  public SmoothDampColor primaryColor;
-  public SmoothDampColor secondaryColor;
-  public SmoothDampColor tertiaryColor;
+  // public SmoothDampColor primaryColor;
+  // public SmoothDampColor secondaryColor;
+  // public SmoothDampColor tertiaryColor;
 
   public void Update() {
     // var data = GameObject.FindWithTag("ShoeData").GetComponent<ShoeData>();
-    var data = ShoeManager.instance.CurrentShoe();
-    primaryColor.target = data.primary;
-    secondaryColor.target = data.secondary;
-    tertiaryColor.target = data.tertiary;
+    // var data = ShoeManager.instance.CurrentShoe();
+    // primaryColor.target = data.primary;
+    // secondaryColor.target = data.secondary;
+    // tertiaryColor.target = data.tertiary;
   }
   
   public void LateUpdate() {
     // graphic.localScale = scale.current;
 
     foreach (var item in primaryGraphic) {
-      item.material.color = primaryColor.current;
+      item.material.color = data.primary;//primaryColor.current;
     }
     foreach (var item in secondaryGraphic) {
-      item.material.color = secondaryColor.current;
+      item.material.color = data.secondary;//secondaryColor.current;
     }
     foreach (var item in tertiaryGraphic) {
-      item.material.color = tertiaryColor.current;
+      item.material.color = data.tertiary;//tertiaryColor.current;
     }
   }
 	
