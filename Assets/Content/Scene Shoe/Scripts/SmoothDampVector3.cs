@@ -9,6 +9,6 @@ public class SmoothDampVector3 : MonoBehaviour {
 	public Vector3 velocity = Vector3.zero;
 
 	public void Update () {
-		transform.localScale = Vector3.SmoothDamp(transform.localScale, target, ref velocity, smoothTime);
+		current = Vector3.SmoothDamp(current, target, ref velocity, smoothTime);
 	}
 }
