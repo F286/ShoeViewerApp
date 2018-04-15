@@ -4,9 +4,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
-  public Color primary = Color.white;
-  public Color secondary = Color.white;
-  public Color tertiary = Color.white;
   [Space()]
   public Transform graphic;
   public SmoothDampVector3 scale;
@@ -15,14 +12,17 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
   public MeshRenderer[] tertiaryGraphic;
 
   public void Update() {
+    // var data = GameObject.FindWithTag("ShoeData").GetComponent<ShoeData>();
+    var data = ShoeManager.instance.CurrentShoe();
+
     foreach (var item in primaryGraphic) {
-      item.material.color = primary;
+      item.material.color = data.primary;
     }
     foreach (var item in secondaryGraphic) {
-      item.material.color = secondary;
+      item.material.color = data.secondary;
     }
     foreach (var item in tertiaryGraphic) {
-      item.material.color = tertiary;
+      item.material.color = data.tertiary;
     }
   }
   
