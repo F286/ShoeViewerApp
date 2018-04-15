@@ -5,6 +5,15 @@ using UnityEngine;
 public class ShoeManager : MonoBehaviour {
 
 	public int current = 0;
+	[Space()]
+	public TextMesh title;
+	public TextMesh price;
+
+	public void Update() {
+		var currentShoe = CurrentShoe();
+		title.text = currentShoe.title;
+		price.text = currentShoe.price;
+	}
 
 	public ShoeData CurrentShoe() {
 		if (current < 0) {
