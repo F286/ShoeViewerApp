@@ -24,7 +24,10 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
   }
   
   public void LateUpdate() {
-    // graphic.localScale = scale.current;
+    UpdateGraphics();
+  }
+
+  public void UpdateGraphics() {
     var data = GetComponent<ShoeData>();
 
     foreach (var item in primaryGraphic) {

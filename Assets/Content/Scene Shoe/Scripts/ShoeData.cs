@@ -10,6 +10,11 @@ public class ShoeData : MonoBehaviour {
   public Color tertiary = Color.white;
 
 	public void OnValidate() {
-		name = title;
+		if (Application.isPlaying) {
+			return;
+		}
+		if (GetComponent<Shoe>()) {
+			GetComponent<Shoe>().UpdateGraphics();
+		}
 	}
 }
