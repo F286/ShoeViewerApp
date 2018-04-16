@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
-  public ShoeData data;
+  // public ShoeData data;
   [Space()]
   // public Transform graphic;
   // public SmoothDampVector3 scale;
@@ -25,6 +25,7 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
   
   public void LateUpdate() {
     // graphic.localScale = scale.current;
+    var data = GetComponent<ShoeData>();
 
     foreach (var item in primaryGraphic) {
       item.material.color = data.primary;//primaryColor.current;

@@ -1,4 +1,4 @@
-﻿Shader "Shoe/Red" {
+﻿Shader "Content/Mask" {
     SubShader {
         Tags { "RenderType"="Opaque" "Queue"="Geometry"}
         Pass {
@@ -7,7 +7,9 @@
                 Comp always
                 Pass replace
             }
-						ZWrite Off
+            ZWrite Off
+            ZTest Always
+            Blend SrcAlpha OneMinusSrcAlpha
         
             CGPROGRAM
             #pragma vertex vert
@@ -24,7 +26,7 @@
                 return o;
             }
             half4 frag(v2f i) : SV_Target {
-                return half4(1,1,1,1);
+                return half4(1,0,0,0);
             }
             ENDCG
         }
