@@ -427,7 +427,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1553,7 +1553,7 @@ Prefab:
     - target: {fileID: 114587482298030984, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
         type: 2}
       propertyPath: index
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
@@ -4153,59 +4153,59 @@ MonoBehaviour:
   data:
   - title: alba
     price: 59.95
-    primary: {r: 1, g: 0, b: 0, a: 1}
-    secondary: {r: 0.23729454, g: 0.2424024, b: 0.97794116, a: 1}
-    tertiary: {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
+    primary: {r: 0.73333335, g: 0.039215688, b: 0.17254902, a: 1}
+    secondary: {r: 0.9921569, g: 0.9921569, b: 0.9921569, a: 1}
+    tertiary: {r: 0, g: 0, b: 0, a: 1}
   - title: casey
     price: 74.95
-    primary: {r: 0.94482756, g: 1, b: 0, a: 1}
-    secondary: {r: 0.97794116, g: 0.6203876, b: 0.23729454, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.9921569, g: 0.8313726, b: 0.22352943, a: 1}
+    secondary: {r: 0.3921569, g: 0.03529412, b: 0.3921569, a: 1}
+    tertiary: {r: 0.16078432, g: 0.18039216, b: 0.20000002, a: 1}
   - title: dakota
     price: 53.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 1, g: 1, b: 1, a: 1}
+    secondary: {r: 0.86274517, g: 0.23137257, b: 0.19215688, a: 1}
+    tertiary: {r: 0.043137256, g: 0.3921569, b: 0.3803922, a: 1}
   - title: derek
     price: 74.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.9843137, g: 0.9843137, b: 0.9843137, a: 1}
+    secondary: {r: 0.98823535, g: 0.59607846, b: 0.15294118, a: 1}
+    tertiary: {r: 0.16078432, g: 0.18039216, b: 0.20000002, a: 1}
   - title: dylan
     price: 79.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.8313726, g: 0.6, b: 0.27450982, a: 1}
+    secondary: {r: 1, g: 1, b: 1, a: 1}
+    tertiary: {r: 0.48235297, g: 0.19215688, b: 0.79215693, a: 1}
   - title: emma
     price: 34.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 1, g: 1, b: 1, a: 1}
+    secondary: {r: 0.04705883, g: 0.18823531, b: 0.42352945, a: 1}
+    tertiary: {r: 0.8078432, g: 0.09019608, b: 0.19215688, a: 1}
   - title: florence
     price: 62.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
+    secondary: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
+    tertiary: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   - title: heather
     price: 83.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.9960785, g: 0.8470589, b: 0.19215688, a: 1}
+    secondary: {r: 0.8745099, g: 0.06666667, b: 0.10588236, a: 1}
+    tertiary: {r: 0, g: 0, b: 0, a: 1}
   - title: mason
     price: 49.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+    secondary: {r: 0.96470594, g: 0.4039216, b: 0.1254902, a: 1}
+    tertiary: {r: 0.03137255, g: 0.29803923, b: 0.5529412, a: 1}
   - title: montana
     price: 53.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    primary: {r: 0, g: 0, b: 0, a: 1}
     secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    tertiary: {r: 0, g: 0, b: 0, a: 1}
   - title: penny
     price: 59.95
-    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
-    secondary: {r: 0, g: 0, b: 0, a: 1}
-    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    primary: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+    secondary: {r: 0.08627451, g: 0.42352945, b: 0.2784314, a: 1}
+    tertiary: {r: 0.9921569, g: 0.64705884, b: 0.16078432, a: 1}
   - title: rachel
     price: 39.95
     primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
@@ -5333,7 +5333,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9720,7 +9720,7 @@ Prefab:
     - target: {fileID: 114587482298030984, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
         type: 2}
       propertyPath: index
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
