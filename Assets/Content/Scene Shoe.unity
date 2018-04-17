@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 28234270}
   - component: {fileID: 28234271}
+  - component: {fileID: 28234272}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -434,6 +435,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &28234272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 28234269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1 &38680969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1316,7 @@ GameObject:
   - component: {fileID: 369503964}
   - component: {fileID: 369503963}
   - component: {fileID: 369503965}
+  - component: {fileID: 369503966}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -1423,6 +1438,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &369503966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369503961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1 &371152910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2203,7 @@ GameObject:
   - component: {fileID: 570226610}
   - component: {fileID: 570226609}
   - component: {fileID: 570226611}
+  - component: {fileID: 570226612}
   m_Layer: 0
   m_Name: Details
   m_TagString: Untagged
@@ -2296,6 +2325,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &570226612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 570226607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1001 &572453402
 Prefab:
   m_ObjectHideFlags: 0
@@ -5258,6 +5300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087752804}
   - component: {fileID: 1087752805}
+  - component: {fileID: 1087752806}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -5340,6 +5383,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1087752806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087752803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1001 &1095902975
 Prefab:
   m_ObjectHideFlags: 0
@@ -9387,6 +9443,7 @@ GameObject:
   - component: {fileID: 1751250474}
   - component: {fileID: 1751250473}
   - component: {fileID: 1751250475}
+  - component: {fileID: 1751250476}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -9497,6 +9554,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1751250476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751250471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1 &1763046125
 GameObject:
   m_ObjectHideFlags: 0
@@ -9952,6 +10022,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1870140472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870140470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!4 &1893077305 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
@@ -10407,6 +10490,7 @@ GameObject:
   - component: {fileID: 1987499732}
   - component: {fileID: 1987499731}
   - component: {fileID: 1987499733}
+  - component: {fileID: 1987499734}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -10517,6 +10601,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1987499734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987499729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6198764cb869946559e45c26168313ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnter: 0
+  enterTime: 0
 --- !u!1001 &2001552707
 Prefab:
   m_ObjectHideFlags: 0
