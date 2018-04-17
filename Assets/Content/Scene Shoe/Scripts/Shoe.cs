@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
   // public ShoeData data;
+  public int index;
   [Space()]
   // public Transform graphic;
   // public SmoothDampVector3 scale;
@@ -15,20 +16,21 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
   // public SmoothDampColor secondaryColor;
   // public SmoothDampColor tertiaryColor;
 
-  public void Update() {
-    // var data = GameObject.FindWithTag("ShoeData").GetComponent<ShoeData>();
-    // var data = ShoeManager.instance.CurrentShoe();
-    // primaryColor.target = data.primary;
-    // secondaryColor.target = data.secondary;
-    // tertiaryColor.target = data.tertiary;
-  }
+  // public void Update() {
+  //   // var data = GameObject.FindWithTag("ShoeData").GetComponent<ShoeData>();
+  //   // var data = ShoeManager.instance.CurrentShoe();
+  //   // primaryColor.target = data.primary;
+  //   // secondaryColor.target = data.secondary;
+  //   // tertiaryColor.target = data.tertiary;
+  // }
   
-  public void LateUpdate() {
-    UpdateGraphics();
-  }
+  // public void LateUpdate() {
+  //   UpdateGraphics();
+  // }
 
-  public void UpdateGraphics() {
-    var data = GetComponent<ShoeData>();
+  public void Update() {
+    // var data = GetComponent<ShoeData>();
+    var data = ShoeDataManager.instance.GetData(index);
 
     foreach (var item in primaryGraphic) {
       item.material.color = data.primary;//primaryColor.current;

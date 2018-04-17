@@ -9,12 +9,18 @@ public class ShoeData : MonoBehaviour {
   public Color secondary = Color.white;
   public Color tertiary = Color.white;
 
-	public void OnValidate() {
-		if (Application.isPlaying) {
-			return;
-		}
-		if (GetComponent<Shoe>()) {
-			GetComponent<Shoe>().UpdateGraphics();
-		}
-	}
+	// public void Awake() {
+	// 	if (GetComponent<Shoe>()) {
+	// 		GetComponent<Shoe>().UpdateGraphics();
+	// 	}
+	// }
+
+	// public void OnValidate() {
+	// 	if (Application.isPlaying) {
+	// 		return;
+	// 	}
+	// 	if (GetComponent<Shoe>()) {
+	// 		GetComponent<Shoe>().UpdateGraphics();
+	// 	}
+	// }
 }
