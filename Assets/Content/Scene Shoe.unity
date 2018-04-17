@@ -4156,10 +4156,75 @@ MonoBehaviour:
     primary: {r: 1, g: 0, b: 0, a: 1}
     secondary: {r: 0.23729454, g: 0.2424024, b: 0.97794116, a: 1}
     tertiary: {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
-  - title: russel
-    price: 86.95
+  - title: casey
+    price: 74.95
     primary: {r: 0.94482756, g: 1, b: 0, a: 1}
     secondary: {r: 0.97794116, g: 0.6203876, b: 0.23729454, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: dakota
+    price: 53.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: derek
+    price: 74.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: dylan
+    price: 79.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: emma
+    price: 34.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: florence
+    price: 62.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: heather
+    price: 83.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: mason
+    price: 49.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: montana
+    price: 53.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: penny
+    price: 59.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: rachel
+    price: 39.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: russel
+    price: 49.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: solace
+    price: 62.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
+    tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+  - title: tory
+    price: 79.95
+    primary: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 1}
+    secondary: {r: 0, g: 0, b: 0, a: 1}
     tertiary: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
   offset: 0
 --- !u!1 &896841691
