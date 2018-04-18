@@ -7,7 +7,7 @@ public class SetText : MonoBehaviour {
 	public Type type;
 	public int offset;
 
-	public void Update () {
+	public void LateUpdate () {
 		var data = ShoeDataManager.instance.GetData(offset);
 
 		switch (type) {

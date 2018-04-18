@@ -28,7 +28,7 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
   //   UpdateGraphics();
   // }
 
-  public void Update() {
+  public void LateUpdate() {
     // var data = GetComponent<ShoeData>();
     var data = ShoeDataManager.instance.GetData(index);
 

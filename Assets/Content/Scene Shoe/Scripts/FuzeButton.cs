@@ -5,6 +5,9 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class FuzeButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
+	public Image image;
+	public bool canRepeat;
+	[Space()]
 	public bool isEnter;
 	public float enterTime;
 
@@ -22,9 +25,17 @@ public class FuzeButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 	public void Update() {
 		if (isEnter) {
 			if (Time.time - enterTime > triggerTime) {
-				isEnter = false;
+				if (canRepeat) {
+					enterTime = Time.time;
+				}
+				else {
+					isEnter = false;
+				}
 				GetComponent<Button>().onClick.Invoke();
 			}
+		}
+		if (image) {
+			image.fillAmount = isEnter ? (Time.time - enterTime) / triggerTime : 0;
 		}
 	}
 
