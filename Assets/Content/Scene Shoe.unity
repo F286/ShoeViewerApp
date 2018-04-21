@@ -422,9 +422,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 889432476}
-        m_MethodName: AddToOffset
-        m_Mode: 3
+      - m_Target: {fileID: 1398587404}
+        m_MethodName: Next
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -574,22 +574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   offset: 0
---- !u!1 &91495697 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1951263010442216, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1667293726}
---- !u!114 &91495700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 91495697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84dabba5a90d43b8860370736801817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &91787216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +987,7 @@ GameObject:
   - component: {fileID: 320545344}
   - component: {fileID: 320545343}
   - component: {fileID: 320545345}
+  - component: {fileID: 320545346}
   m_Layer: 0
   m_Name: Text (1)
   m_TagString: Untagged
@@ -1080,6 +1065,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   offset: 1
+--- !u!225 &320545346
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 320545341}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &350573369
 Prefab:
   m_ObjectHideFlags: 0
@@ -1444,6 +1440,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &381900347 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4191936867003168, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
+    type: 2}
+  m_PrefabInternal: {fileID: 381900346}
 --- !u!1001 &426875549
 Prefab:
   m_ObjectHideFlags: 0
@@ -2986,22 +2987,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 875729625}
   m_Mesh: {fileID: 4300010, guid: ccfa2d52f35e247bf998da62b154a2b5, type: 3}
---- !u!1 &881490653 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1951263010442216, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1783564517}
---- !u!114 &881490656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 881490653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84dabba5a90d43b8860370736801817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &889432474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3401,7 @@ GameObject:
   - component: {fileID: 1022964168}
   - component: {fileID: 1022964167}
   - component: {fileID: 1022964169}
+  - component: {fileID: 1022964170}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -3493,6 +3479,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   offset: 0
+--- !u!225 &1022964170
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1022964165}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1043016885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,9 +3727,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 889432476}
-        m_MethodName: AddToOffset
-        m_Mode: 3
+      - m_Target: {fileID: 1398587404}
+        m_MethodName: Previous
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4973,22 +4970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 0.2, y: 0, z: 0}
   time: 4
---- !u!1 &1324908116 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1951263010442216, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
-    type: 2}
-  m_PrefabInternal: {fileID: 381900346}
---- !u!114 &1324908119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1324908116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84dabba5a90d43b8860370736801817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1356507292
 GameObject:
   m_ObjectHideFlags: 0
@@ -5274,9 +5255,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9910f71e8ec364bfbbbe3234de2071e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {fileID: 0}
-  shoes: []
-  targets: []
+  shoes:
+  - {fileID: 1664185769}
+  - {fileID: 381900347}
+  - {fileID: 1783564519}
+  titles:
+  - {fileID: 1022964170}
+  - {fileID: 2052925596}
+  - {fileID: 320545346}
+  shoeData: {fileID: 889432476}
+  smooth: 0.1
+  t: 1
+  tVelocity: 0
 --- !u!1 &1401070893
 GameObject:
   m_ObjectHideFlags: 0
@@ -6331,7 +6321,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1580741624}
   m_Mesh: {fileID: 4300000, guid: 137df3466902d424983627567b86735e, type: 3}
---- !u!1001 &1667293726
+--- !u!1001 &1664185768
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6373,11 +6363,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1664185769 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4191936867003168, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1664185768}
 --- !u!4 &1667293727 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
     type: 2}
-  m_PrefabInternal: {fileID: 1667293726}
+  m_PrefabInternal: {fileID: 1664185768}
 --- !u!1001 &1712644504
 Prefab:
   m_ObjectHideFlags: 0
@@ -6535,9 +6530,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 889432476}
-        m_MethodName: AddToOffset
-        m_Mode: 3
+      - m_Target: {fileID: 1398587404}
+        m_MethodName: Previous
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6751,6 +6746,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
     type: 2}
   m_PrefabInternal: {fileID: 1783564517}
+--- !u!4 &1783564519 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4191936867003168, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1783564517}
 --- !u!1001 &1799242669
 Prefab:
   m_ObjectHideFlags: 0
@@ -6887,7 +6887,7 @@ GameObject:
   - component: {fileID: 1805475881}
   m_Layer: 2
   m_Name: Setup
-  m_TagString: Untagged
+  m_TagString: Setup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7160,7 +7160,7 @@ Prefab:
     - target: {fileID: 224395003580146244, guid: 8831bf49793484ec5b2896e83efad5d7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224395003580146244, guid: 8831bf49793484ec5b2896e83efad5d7,
         type: 2}
@@ -7544,9 +7544,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 889432476}
-        m_MethodName: AddToOffset
-        m_Mode: 3
+      - m_Target: {fileID: 1398587404}
+        m_MethodName: Next
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7641,6 +7641,7 @@ GameObject:
   - component: {fileID: 2052925594}
   - component: {fileID: 2052925593}
   - component: {fileID: 2052925595}
+  - component: {fileID: 2052925596}
   m_Layer: 0
   m_Name: Text (1)
   m_TagString: Untagged
@@ -7718,6 +7719,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   offset: -1
+--- !u!225 &2052925596
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052925591}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &2117639032 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114228177067635532, guid: 93610be033d544a929f5c322a2424d2d,
