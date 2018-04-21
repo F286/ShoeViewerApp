@@ -779,7 +779,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3843451fbc74e4dbbbee8e434dfd86b3, type: 2}
+  - {fileID: 2100000, guid: 6e81be0a1386f4086bb911929133a76f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1975,18 +1975,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.0318613
-      objectReference: {fileID: 0}
-    - target: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.0318612
-      objectReference: {fileID: 0}
-    - target: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.7579721
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f0d263d25fe14ef1ba81677117b5c6d, type: 2}
   m_IsPrefabParent: 0
@@ -1995,34 +1983,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4117828809251014, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
     type: 2}
   m_PrefabInternal: {fileID: 672121792}
---- !u!1 &672121794 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1951263010442216, guid: 2f0d263d25fe14ef1ba81677117b5c6d,
-    type: 2}
-  m_PrefabInternal: {fileID: 672121792}
---- !u!114 &672121795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 672121794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29aa39feb71b84da1b72c386e661c26e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 20, z: 0}
---- !u!114 &672121798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 672121794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84dabba5a90d43b8860370736801817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &708710541
 Prefab:
   m_ObjectHideFlags: 0
@@ -2252,7 +2212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &731456625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2764,7 +2724,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3843451fbc74e4dbbbee8e434dfd86b3, type: 2}
+  - {fileID: 2100000, guid: 432530109916f4a67a95ad0be85ead76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3025,7 +2985,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3843451fbc74e4dbbbee8e434dfd86b3, type: 2}
+  - {fileID: 2100000, guid: 6e81be0a1386f4086bb911929133a76f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3223,7 +3183,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3843451fbc74e4dbbbee8e434dfd86b3, type: 2}
+  - {fileID: 2100000, guid: 6e81be0a1386f4086bb911929133a76f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3314,6 +3274,7 @@ MonoBehaviour:
   - {fileID: 371152912}
   - {fileID: 875729627}
   - {fileID: 896841693}
+  - {fileID: 185145546}
 --- !u!114 &940901423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5400,7 +5361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1453191740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7105,7 +7066,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3843451fbc74e4dbbbee8e434dfd86b3, type: 2}
+  - {fileID: 2100000, guid: 15dcb314d202b49d69815f7fb4c89f7d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
