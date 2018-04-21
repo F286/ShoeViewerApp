@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4020601447278926}
-  - component: {fileID: 114501306441831456}
   - component: {fileID: 114587482298030984}
   m_Layer: 0
   m_Name: Shoe
@@ -280,7 +279,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1432334420924190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -437, y: -468, z: 819}
+  m_LocalPosition: {x: 0, y: -193.00002, z: 0}
   m_LocalScale: {x: 1.0318613, y: 1.0318612, z: 0.7579721}
   m_Children:
   - {fileID: 4719483016245694}
@@ -728,22 +727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: 20, z: 0}
---- !u!114 &114501306441831456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1023547780760304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a3b7dcc9d3794a52b8815886b073062, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title: Alba
-  price: 59.95
-  primary: {r: 1, g: 0, b: 0, a: 1}
-  secondary: {r: 0.23729454, g: 0.2424024, b: 0.97794116, a: 1}
-  tertiary: {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
 --- !u!114 &114587482298030984
 MonoBehaviour:
   m_ObjectHideFlags: 1
