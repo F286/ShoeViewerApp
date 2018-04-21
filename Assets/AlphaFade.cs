@@ -26,6 +26,9 @@ public class AlphaFade : MonoBehaviour {
 		if (isShow != group.gameObject.activeSelf) {
 			group.gameObject.SetActive(isShow);
 		}
+		if (isShow) {
+			group.BroadcastMessage("Fade", smooth.current);
+		}
 		// if (isShow != wasShow) {
 		// 	group.gameObject.SetActive(isShow);
 		// }
