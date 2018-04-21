@@ -1,9 +1,12 @@
 ﻿Shader "Content/Mask" {
+	Properties {
+        _StencilMask ("Mask Layer", Range(0, 255)) = 2
+	}
     SubShader {
         Tags { "RenderType"="Opaque" "Queue"="Geometry"}
         Pass {
             Stencil {
-                Ref 2
+                Ref [_StencilMask]
                 Comp always
                 Pass replace
             }
