@@ -5264,7 +5264,7 @@ MonoBehaviour:
   - {fileID: 2052925596}
   - {fileID: 320545346}
   shoeData: {fileID: 889432476}
-  smooth: 0.1
+  smooth: 0.12
   t: 1
   tVelocity: 0
 --- !u!1 &1401070893
