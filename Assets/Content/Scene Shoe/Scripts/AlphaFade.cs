@@ -15,10 +15,6 @@ public class AlphaFade : MonoBehaviour {
 		smooth.target = 0;
 	}
 
-	// public void OnEnable() {
-	// 	wasShow = smooth.current > 0.001f;
-	// 	group.gameObject.SetActive(wasShow);
-	// }
 	public void Update () {
 		group.alpha = smooth.current;
 
@@ -29,8 +25,5 @@ public class AlphaFade : MonoBehaviour {
 		if (isShow) {
 			group.BroadcastMessage("Fade", smooth.current);
 		}
-		// if (isShow != wasShow) {
-		// 	group.gameObject.SetActive(isShow);
-		// }
 	}
 }
