@@ -23,7 +23,7 @@ public class Shoe : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
       item.material.color = data.tertiary;
     }
   }
-	
+  
   public void OnPointerEnter(PointerEventData eventData) {
   }
   public void OnPointerExit(PointerEventData eventData) {

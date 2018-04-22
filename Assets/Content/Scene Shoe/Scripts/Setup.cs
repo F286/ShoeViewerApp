@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Setup : MonoBehaviour {
 
-	public void Awake() {
-		Screen.orientation = ScreenOrientation.LandscapeLeft;
-	}
+  public void Awake() {
+    Screen.orientation = ScreenOrientation.LandscapeLeft;
+  }
 
-	public static Setup instance;
-	public void OnEnable() {
-		instance = this;
-	}
+  public static Setup instance;
+  public void OnEnable() {
+    instance = this;
+  }
 }
